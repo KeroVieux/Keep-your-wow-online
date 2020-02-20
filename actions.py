@@ -3,27 +3,25 @@ from reboot import *
 
 keyboard = Controller()
 
-randomLetter = ['q', 'w', 'e', 'a', 's', 'd', 'f', 'z', 'x']
+letters = ['a', 'd', 'f', 'z', 'x', '6', '7', '8']
 
 
 def random_actions():
     time.sleep(random.randint(5, 30))
-    will_type = randomLetter[random.randint(0, len(randomLetter) - 1)]
-    keyboard.press(will_type)
-    keyboard.release(will_type)
+    letters_shuffle = random.shuffle(letters)
+    keyboard.press(letters_shuffle[0])
+    keyboard.release(letters_shuffle[0])
 
     random_event = random.randint(0, 10)
     if random_event > 1 or random_event < 5:
         time.sleep(random.randint(5, 10))
-        second_will_type = randomLetter[random.randint(0, len(randomLetter) - 1)]
-        keyboard.press(second_will_type)
-        keyboard.release(second_will_type)
+        keyboard.press(letters_shuffle[1])
+        keyboard.release(letters_shuffle[1])
 
     if random_event > 5:
         time.sleep(random.randint(5, 10))
-        third_will_type = randomLetter[random.randint(0, len(randomLetter) - 1)]
-        keyboard.press(third_will_type)
-        keyboard.release(third_will_type)
+        keyboard.press(letters_shuffle[2])
+        keyboard.release(letters_shuffle[2])
 
     if random_event < 8:
         time.sleep(random.randint(5, 10))
