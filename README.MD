@@ -1,6 +1,6 @@
 # Keep your wow online
 ## Requires
-- Python >= 3.6
+- Python >= 3.6 (Pycharm public version is recommended)
 - Mac OSx 10.15.1 (or above)
 - Windows have not tested (if you have confirm that, I glad to know it.)
 
