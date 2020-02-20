@@ -6,7 +6,7 @@
 
 ## Set up
 ### install requires via terminal
-`pip install -r requirements.text`
+`pip install -r requirements.txt`
 
 ### Catch and mark your launch button on the battleNet UI
 1. run `python :path/mousePosition.py`
