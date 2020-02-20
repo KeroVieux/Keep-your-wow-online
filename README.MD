@@ -18,8 +18,8 @@
 
 ## app logic description
 1. Random actions per 3 min
-2. Back to camp page per 30 min
-3. Kill the process and relaunch WOW per 3 hours
+2. Back to the camp page per 30 min
+3. Kill the process and relaunch your WOW per 3 hours
 
 
 
