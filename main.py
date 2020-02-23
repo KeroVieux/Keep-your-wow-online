@@ -26,12 +26,6 @@ def combine():
             print('reload at: {0}, count={1}'.format(datetime_now, count))
             print('***')
             reload()
-        elif count % 180 is 0:
-            print('relaunch at: {0}, count={1}'.format(datetime_now, count))
-            print('^^^')
-            wow_process.kill()
-            time.sleep(30)
-            reboot()
         else:
             print('random actions at: {0}, count={1}'.format(datetime_now, count))
             print('---')

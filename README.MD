@@ -2,7 +2,7 @@
 ## Requires
 - Python >= 3.6 (Pycharm public version is recommended)
 - Mac OSx 10.15.1 (or above)
-- Windows have not tested (if you have confirm that, I glad to know it.)
+- Windows have not tested (if you have confirm that, I will glad to know that.)
 
 ## Set up
 ### install requires via terminal

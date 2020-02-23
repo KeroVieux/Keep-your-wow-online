@@ -16,10 +16,11 @@ def reboot():
     mouse.release(Button.left)
     time.sleep(3)
     mouse.position = (launch_x, launch_y)
-    time.sleep(30)
+    time.sleep(20)
     mouse.press(Button.left)
     mouse.release(Button.left)
-    time.sleep(30)
+    time.sleep(50)
     keyboard.press(Key.enter)
     keyboard.release(Key.enter)
 
+reboot()

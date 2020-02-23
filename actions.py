@@ -8,6 +8,11 @@ letters = ['a', 'd', 'f', 'z', 'x', '6', '7', '8']
 
 
 def random_actions():
+    keyboard.press(Key.enter)
+    keyboard.release(Key.enter)
+    time.sleep(3)
+    keyboard.press(Key.enter)
+    keyboard.release(Key.enter)
     time.sleep(random.randint(5, 30))
     random.shuffle(letters)
     keyboard.press(letters[0])

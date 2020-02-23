@@ -12,7 +12,7 @@ def reload():
     time.sleep(3)
     keyboard.press(Key.enter)
     keyboard.release(Key.enter)
-    time.sleep(60)
+    time.sleep(50)
     keyboard.press(Key.enter)
     keyboard.release(Key.enter)
 
