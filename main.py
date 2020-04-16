@@ -15,9 +15,10 @@ def combine():
     datetime_now = datetime.now()
     keyboard.press(Key.esc)
     keyboard.release(Key.esc)
-    time.sleep(3)
+    time.sleep(1)
     keyboard.press(Key.esc)
     keyboard.release(Key.esc)
+    time.sleep(15)
     for process in psutil.process_iter(['pid', 'name']):
         if process.name() == 'World of Warcraft Classic':
             wow_process = process
